@@ -1,2 +1,2 @@
 #!/bin/bash
-tr .c .s | gcc -S > .c
+tr .c .s | gcc -S $CFILE > .c
