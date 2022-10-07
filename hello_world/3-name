@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CIFLE -o cisfun
+<<.c<< | gcc cisfun.c -o cisfun | $CFILE=cisfun
