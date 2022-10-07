@@ -1,2 +1,2 @@
 #!/bin/bash
-<<.c<< | gcc cisfun.c -o cisfun | $CFILE=cisfun
+<<.c<< | gcc cisfun.c -o $CFILE > cisfun
