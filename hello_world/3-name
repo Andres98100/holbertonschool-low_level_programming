@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc cisfun -o <<cisfun<< > $CFINE
+gcc cisfun -o cisfun > $CFINE
