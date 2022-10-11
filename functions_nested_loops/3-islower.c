@@ -3,7 +3,7 @@
 #include"main.h"
 /**
 *_islower - print if c is lower
-*@c - variable
+*@c: variable
 *Description: print if c is lower
 *Return: 1 or 0
 */
