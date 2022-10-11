@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"main.c"
+#include"main.h"
 /**
 *print_sign - function
 *@n: variable
