@@ -5,7 +5,7 @@
 *Description: show alphabet with functions
 *Return: zero
 */
-void _putchar(char c);
+int _putchar(char c);
 void print_alphabet(void)
 {
 char l = 'a';
@@ -18,6 +18,8 @@ _putchar('\n');
 }
 int main(void)
 {
+char c;
+c = int _putchar(c);
 print_alphabet();
 return (0);
 }
