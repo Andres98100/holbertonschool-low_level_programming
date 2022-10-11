@@ -7,11 +7,17 @@
 */
 int main(void)
 {
-int l = 65;
-while (l <= 122)
+char l = 'a';
+char L = 'A';  
+while (l <= 'z')
 {
 putchar(l);
 l++;
+}
+while(L <= 'Z')
+{
+putchar(L);
+L++;
 }
 putchar('\n');
 return (0);
