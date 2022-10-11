@@ -10,10 +10,10 @@ do
 char l = 'a';
 while (l < 'z')
 {
-_putchar(l);
+putchar(l);
 l++;
 }
-_putchar('\n');
+putchar('\n');
 i++;
 }
 while (i < 10);
