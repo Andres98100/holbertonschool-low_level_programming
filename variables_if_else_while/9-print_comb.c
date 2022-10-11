@@ -2,7 +2,7 @@
 /**
 *main - main function
 *description: combination of numbers
-*return: zero
+*Return: zero
 */
 int main(void)
 {
@@ -17,6 +17,6 @@ putchar(' ');
 }
 l++;
 }
- putchar('\n');
+putchar('\n');
 return (0);
 }
