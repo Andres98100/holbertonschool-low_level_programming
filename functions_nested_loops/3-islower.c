@@ -2,6 +2,9 @@
 #include<ctype.h>
 /**
 *_islower - print if c is lower
+*@c - variable
+*Description: print if c is lower
+*return: 1 0
 */
 int _islower(int c)
 {
