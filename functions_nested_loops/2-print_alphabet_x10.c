@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*
+*print_alphabet_x10 - print 10 time the alphabet
 */
 void print_alphabet_x10(void)
 {
@@ -10,11 +10,10 @@ do
 char l = 'a';
 while (l < 'z')
 {
-printf("%c", l);
+_putchar(l);
 l++;
 }
-putchar(l);
-putchar('\n');
+_putchar('\n');
 i++;
 }
 while (i < 10); 
