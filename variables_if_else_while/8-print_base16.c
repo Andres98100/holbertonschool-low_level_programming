@@ -11,7 +11,7 @@ char l = 'a';
 while (n <= '9')
 {
 putchar(n);
-l++;
+n++;
 }
 while (l <= 'f')
 {
