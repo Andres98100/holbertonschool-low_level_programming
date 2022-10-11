@@ -12,8 +12,8 @@ char l = 'a';
 while (l < 122)
 {
 putchar(l);
-putchar('\n');
 l++;
 }
+putchar('\n');
 return (0);
 }
