@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-int l = 97;
+char l = 97;
 while (l < 122)
 putchar(l);
 putchar("\n");
