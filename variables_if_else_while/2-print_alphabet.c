@@ -8,8 +8,9 @@
 */
 int main(void)
 {
-char l = 97;
+char l = 'a';
 while (l < 122)
+{
 putchar(l);
 putchar("\n");
 l++;
