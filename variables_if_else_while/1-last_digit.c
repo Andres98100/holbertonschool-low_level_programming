@@ -15,7 +15,7 @@ n = rand() - RAND_MAX / 2;
 num = n % 10;
 if (num == 0)
 {
-printf("Last digit of %i is % i and is 0\n", n, num);
+printf("Last digit of %i is% i and is 0\n", n, num);
 }
 else
 {
