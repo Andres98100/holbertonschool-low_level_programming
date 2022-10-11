@@ -9,7 +9,7 @@
 int main(void)
 {
 char l = 'a';
-while (l < 122)
+while (l <= 122)
 {
 putchar(l);
 l++;
