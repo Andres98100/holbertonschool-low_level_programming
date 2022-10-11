@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"0-putchar.h"
+#include"main.h"
 /**
 *main - main function
 *Description: print putchar
