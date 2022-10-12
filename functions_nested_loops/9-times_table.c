@@ -3,15 +3,18 @@
 /**
 *time_table - function
 */
-void times_table(void){
+void times_table(void)
+{
 	int i = 0;
 	int l;
 	int c;
+
 	for (l = 0; l <= 9; l++)
 	{
-		for(c = 0; c <= 9;c++)
+		for (c = 0; c <= 9; c++)
 		{
 			int result = l * c;
+
 			if (result > 9)
 			{
 				_putchar(',');
