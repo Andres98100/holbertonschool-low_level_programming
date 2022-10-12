@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include"main.h"
+/**
+*jack_bauer - function
+*/
 void jack_bauer(void)
 {
 for (int i = 0; i <= 23; i++)
