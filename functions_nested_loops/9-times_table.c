@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*time_table - function
+*times_table - function
 */
 void times_table(void)
 {
