@@ -4,4 +4,4 @@ OBJ = *.o
 NAME = school
 all:$(SRC) $(OBJ)
 	$(CC)
-	echo $(NAME)
+	printf$(NAME)
