@@ -8,17 +8,7 @@
 */
 int add(int n1, int n2)
 {
-int ad = 0;
-ad = n1 + n2;
-if (ad <= 9 && ad >= 0)
-{
-_putchar((ad) + '0');
-}
-else if (ad > 9 && ad <= 99)
-{
-_putchar((ad / 10) + '0');
-_putchar((ad % 10) + '0');
-_putchar((ad) + '0');
-}
+int ad;
+ad = n1 + n2; 
 return (ad);
 }
