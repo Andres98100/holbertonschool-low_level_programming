@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"main"
+#include"main.h"
 /**
 *add - function
 *@c: variable
