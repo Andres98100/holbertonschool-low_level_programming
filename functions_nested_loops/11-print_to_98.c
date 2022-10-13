@@ -13,13 +13,14 @@ for (i = n; i < 99; i++)
 {
 if (i == 98)
 {
-printf("%i\n", i);
+printf("%i", i);
 }
 else if (i != 99)
 {
-printf("%i\n, ", i);
+printf("%i, ", i);
 }
 }
+printf("\n");
 }
 else
 {
@@ -27,12 +28,13 @@ for (i = n; i >= 97; i++)
 {
 if (i == 98)
 {
-printf("%i\n", i);
+printf("%i", i);
 }
 else if (i != 97)
 {
-printf("%i\n, ", i);
+printf("%i, ", i);
 }
 }
+printf("\n");
 }
 }
