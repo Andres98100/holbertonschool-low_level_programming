@@ -24,7 +24,7 @@ printf("\n");
 }
 else
 {
-for (i = n; i >= 97; i++)
+for (i = n; i >= 97; i--)
 {
 if (i == 98)
 {
