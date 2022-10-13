@@ -2,14 +2,12 @@
 #include"main.h"
 /**
 *add - function
-*@c: variable
-*@n: variable  
+*@n1: variable
+*@n2: variable  
 *Return: int
 */
-int add(int c, int n)
+int add(int n1, int n2)
 {
-int n1;
-int n2;
 int ad = 0;
 ad = n1 + n2;
 if (ad <= 9 && ad >= 0)
