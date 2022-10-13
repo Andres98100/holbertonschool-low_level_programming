@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*void print_to_98
+*print_to_98 - function
 *@n: variable
 */
 void print_to_98(int n)
