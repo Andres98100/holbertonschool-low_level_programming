@@ -11,9 +11,9 @@ for (i = n ;n <= 98; n++)
 {
 if (i != 98)
 {
-printf("%i", i);
 _putchar(',');
 _putchar(' ');
+printf("%i", i);
 }
 else if (i == 98)
 {
