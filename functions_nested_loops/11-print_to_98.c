@@ -17,9 +17,7 @@ printf("%i\n", i);
 }
 else if (i != 99)
 {
-printf("%i\n", i);
-_putchar(',');
-_putchar(' ');
+printf("%i, \n", i);
 }
 }
 }
@@ -33,9 +31,7 @@ printf("%i\n", i);
 }
 else if (i != 97)
 {
-printf("%i\n", i);
-_putchar(',');
-_putchar(' ');
+printf("%i, \n", i);
 }
 }
 }
