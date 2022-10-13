@@ -3,5 +3,4 @@ SRC = main.c school.c
 OBJ = *.o
 NAME = school
 all:$(SRC) $(OBJ)
-	$(CC)
-	printf$(NAME)
+	printf$(NAME) $(CC)
