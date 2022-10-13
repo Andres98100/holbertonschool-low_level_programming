@@ -7,3 +7,5 @@ all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
 	$(RM) *.~
+oclean:
+	$(RM) -f $(OBJ)
