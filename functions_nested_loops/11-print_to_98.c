@@ -2,34 +2,34 @@
 #include"main.h"
 /**
 *void print_to_98
-*@n1: variable
+*@n: variable
 */
 void print_to_98(int n)
 {
-for (n1 ;n1 <= 98; n1++)
+for (n ;n <= 98; n++)
 {
-if (n1 != 98)
+if (n != 98)
 {
-printf("%i", n1);
+printf("%i", n);
 _putchar(',');
 _putchar(' ');
 }
-else if (n1 == n1)
+else if (n == n)
 {
-printf("%i", n1);
+printf("%i", n);
 }
 }
-for (n1; n1 >= 98; n1--)
+for (n; n >= 98; n--)
 {
-if (n1 != 98)
+if (n != 98)
 {
-printf("%i", n1);
+printf("%i", n);
 _putchar(',');
 _putchar(' ');
 }
-else if (n1 == n1)
+else if (n == n)
 {
-printf("%i", n1);
+printf("%i", n);
 }
 }
 }
