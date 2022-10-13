@@ -4,3 +4,4 @@ OBJ = *.o
 NAME = school
 all:$(CC) $(OBJ)
 	$(NAME)
+	$(SRC)
