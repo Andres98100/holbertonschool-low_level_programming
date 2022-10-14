@@ -2,7 +2,7 @@
 #include"main.h"
 /**
 *print_line - function
-@n: variable
+*@n: variable
 */
 void print_line(int n)
 {
