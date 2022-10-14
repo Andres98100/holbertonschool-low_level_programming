@@ -4,7 +4,7 @@
 *mul - function
 *@a: variable
 *@b: variable
-Return: int
+*Return: int
 */
 int mul(int a, int b)
 {
