@@ -18,5 +18,7 @@ void print_most_numbers(void)
 			}
 			_putchar((f % 10) + '0');
 		}
-			_putchar('\n');
+		w++;
+		_putchar('\n');
+	}
 }
