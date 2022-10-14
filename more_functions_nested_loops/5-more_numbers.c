@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*more_numbres - function
+*more_numbers - function
 */
 void more_numbers(void)
 {
 	int w = 0;
 	int f;
 
-	while (w < 11)
+	while (w < 10)
 	{
 		for (f = 0; f < 15; f++)
 		{
