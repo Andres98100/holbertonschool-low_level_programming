@@ -3,7 +3,7 @@
 /**
 *more_numbres - function
 */
-void print_more_numbers(void)
+void more_numbers(void)
 {
 	int w = 0;
 	int f;
