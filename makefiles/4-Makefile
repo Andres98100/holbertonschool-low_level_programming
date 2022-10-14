@@ -3,12 +3,12 @@ OBJ= $(SRC:.c=.o)
 NAME= school
 RM= rm -f
 CC= gcc
-CFLAGS= -Wall -Werror -Wextra -pedantic 
+CFLAGS = -Wall -Werror -Wextra -pedantic 
 all: $(OBJ)
-        $(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 clean:
-        $(RM) *~ $(NAME)
+	$(RM) *~ $(NAME)
 oclean:
-        $(RM)  $(OBJ)
+	$(RM)  $(OBJ)
 fclean: clean oclean
 re: oclean all
