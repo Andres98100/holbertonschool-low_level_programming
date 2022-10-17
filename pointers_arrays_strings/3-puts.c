@@ -2,7 +2,7 @@
 #include"main.h"
 /**
 *_puts: this function print a string
-*@str: string
+*@str: variable string
 *
 */
 
