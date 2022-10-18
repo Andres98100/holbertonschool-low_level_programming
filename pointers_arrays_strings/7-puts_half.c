@@ -1,5 +1,8 @@
 #include<stdio.h>
-
+/**
+*puts_half - prints half of the string
+*@str:  variable
+*/
 void puts_half(char *str)
 {
 	int len = 0;
