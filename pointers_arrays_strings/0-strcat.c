@@ -1,4 +1,4 @@
-#include<stdio.h>
+i#include<stdio.h>
 #include"main.h"
 /**
 **_strcat - function print concat
@@ -14,18 +14,13 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[i] != '\0')
 	{
-		aux[j] = dest[i];
 		i++;
-		j++;
 	}
-	i = 0;
-
-	while (src[i] != '\0')
+	while (src[j] != '\0')
 	{
-		aux[j] = src[i];
-		i++;
+		dest[i + j] = src[j];
 		j++;
 	}
-	aux[j] = '\0';
+	aux[i + j] = '\0';
 	return (aux);
 }
