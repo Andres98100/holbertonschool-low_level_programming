@@ -17,7 +17,11 @@ char *leet(char *c)
 		n = 0;
 		while (a[n] != '\0')
 		{
-			c[i] = b[n];
+			if (c[i] == a[n])
+			{
+				c[i] = b[n];
+			}
+			n++;
 		}
 		i++;
 	}
