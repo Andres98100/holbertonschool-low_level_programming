@@ -11,7 +11,6 @@ char *cap_string(char *c)
 	int j;
 	char a[] = " \t\n,;.!?\"(){}";
 
-	
 	if (c[0] >= 97 && c[0] <= 122)
 	{
 		c[0] -= 32;
