@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
-**_capstring - function show the first letter in uppercase
+**cap_string - function show the first letter in uppercase
 *@c: variable
 *Return: char
 */
