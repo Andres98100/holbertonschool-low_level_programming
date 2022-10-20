@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*string_toupper - function 
+*string_toupper - function change lowercase to uppercase 
 *@c: variable
 *Return: char
 */
