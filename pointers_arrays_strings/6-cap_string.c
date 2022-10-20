@@ -5,7 +5,7 @@
 *@c: variable
 *Return: char
 */
-char *cap_string(char *)
+char *cap_string(char *c)
 {
 	int i = 0;
 
