@@ -1,15 +1,15 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*int_strspn - function get the length of a substring
+*_strspn - function get the length of a substring
 *@s: variable pointer
 *@accept: variable pointer
 *Return: unsigned
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0;
-	int j = 0;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
 	while (s[i] != '\0')
 	{
