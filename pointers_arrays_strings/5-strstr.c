@@ -20,9 +20,9 @@ char *_strstr(char *haystack, char *needle)
 				return (needle);
 			}
 		}
-		if (haystack[i] == needle[j])
+		if (haystack[i] != needle[j])
 		{
-			return (needle);
+			return (haystack);
 		}
 	}
 	return (0);
