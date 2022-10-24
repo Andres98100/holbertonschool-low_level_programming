@@ -5,9 +5,12 @@
 */
 void _print_rev_recursion(char *s)
 {
-	if(*s)
+	int i;
+	i = 0;
+
+	if (s[i])
 	{
 		_print_rev_recursion(s + 1);
-		printf("%s\n", *s);
+		_putchar(s[i]);
 	}
 }
