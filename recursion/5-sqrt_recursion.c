@@ -3,6 +3,7 @@
 *aux_sqrt - function does the procedure
 *_sqrt_recursion - function print of the sqrt the a number
 *@n: variable int
+*@num: variable
 *@i: variable int
 *Return: int
 */
