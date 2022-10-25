@@ -18,7 +18,7 @@ int aux_sqrt(int n, int i)
 	}
 	else if (i * i == n)
 	{
-		return (n);
+		return (i);
 	}
 	else
 	{
