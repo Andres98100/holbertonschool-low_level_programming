@@ -20,7 +20,7 @@ int aux_sqrt(int n, int i)
 	}
 	else
 	{
-		return (aux_sqrt(n, i + 1));
+		return (aux_sqrt(n, 1));
 	}
 }
 
