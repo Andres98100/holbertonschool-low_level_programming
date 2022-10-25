@@ -6,7 +6,7 @@
 *@i: variable int
 *Return: int
 */
-int aux_sqrt(int num, int i)
+int aux_sqrt(int n, int i)
 {
 	if (n == 0)
 	{
