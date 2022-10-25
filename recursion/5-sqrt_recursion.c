@@ -1,7 +1,9 @@
 #include<stdio.h>
 /**
+*aux_sqrt - function does the procedure
 *_sqrt_recursion - function print of the sqrt the a number
-*@n: variable
+*@n: variable int
+*@i: variable int
 *Return: int
 */
 int aux_sqrt(int n, int i)
