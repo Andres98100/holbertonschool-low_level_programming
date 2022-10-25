@@ -11,7 +11,7 @@ int aux_prime_number(int n, int i)
 	{
 		return (1);
 	}
-	else if(n % i != 0)
+	else if (n % i != 0)
 	{
 		return (aux_prime_number(n, i + 1));
 	}
