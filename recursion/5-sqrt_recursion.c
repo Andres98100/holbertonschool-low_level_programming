@@ -6,23 +6,23 @@
 *@i: variable int
 *Return: int
 */
-int aux_sqrt(int n, int i)
+int aux_sqrt(int num, int i)
 {
-	if (n == 0)
+	if (num == 0)
 	{
 		return (1);
 	}
-	else if (n < 0)
+	else if (num < 0)
 	{
 		return (-1);
 	}
-	else if (i * i == n)
+	else if (i * i == num)
 	{
 		return (i);
 	}
 	else
 	{
-		return (aux_sqrt(n, 1));
+		return (aux_sqrt(num, i + 1));
 	}
 }
 
