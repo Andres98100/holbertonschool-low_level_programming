@@ -3,27 +3,26 @@
 *aux_sqrt - function does the procedure
 *_sqrt_recursion - function print of the sqrt the a number
 *@n: variable int
-*@num: variable
 *@i: variable int
 *Return: int
 */
 int aux_sqrt(int num, int i)
 {
-	if (num == 0)
+	if (n == 0)
 	{
 		return (1);
 	}
-	else if (num < 0)
+	else if (n < 0)
 	{
 		return (-1);
 	}
-	else if (i * i == num)
+	else if (i * i == n)
 	{
 		return (i);
 	}
 	else
 	{
-		return (aux_sqrt(num, i + 1));
+		return (aux_sqrt(n, i + 1));
 	}
 }
 
