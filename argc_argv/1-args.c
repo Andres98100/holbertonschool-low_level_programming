@@ -6,8 +6,9 @@
 *@argv: variable matriz
 *Return: zero
 */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	printf("%d", argc);
+	printf("%d\n", argc);
+	(void)argv;
 	return (0);
 }
