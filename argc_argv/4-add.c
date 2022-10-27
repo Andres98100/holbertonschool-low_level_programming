@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 	int n2;
 	int add = 0;
 
-	for (n1 = 0; n1 < argc; n1++)
+	for (n1 = 1; n1 < argc; n1++)
 	{
 		for (n2 = 0; argv[n1][n2] != '\0'; n2++)
 		{
