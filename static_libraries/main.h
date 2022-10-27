@@ -1,5 +1,5 @@
 #ifndef HEADER_FILE
-#define HEADER_FINE
+#define HEADER_FIlE
 
 int _putchar(char c);
 int _islower(int c);
