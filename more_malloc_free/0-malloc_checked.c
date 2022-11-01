@@ -4,6 +4,7 @@
 /**
 *malloc_checked - function allocates memory
 *@b: variable
+*Return: zero
 */
 void *malloc_checked(unsigned int b)
 {
