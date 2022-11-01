@@ -1,7 +1,7 @@
-#include<stdlib.h>
-#include<string.h>
-#include<stdio.h>
-#include"main.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "main.h"
 /**
 *str_concat - function concat two pointers
 *@s1: variable pointer char
