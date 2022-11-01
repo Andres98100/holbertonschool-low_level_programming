@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 
 	if (b == 0)
 	{
-		exit (NULL);
+		return (NULL);
 	}
 	arr = (int *)malloc(b * sizeof(int));
 }
