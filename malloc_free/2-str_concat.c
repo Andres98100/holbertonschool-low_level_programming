@@ -8,7 +8,7 @@
 *@s2: variable pointer char
 *Return: pointer char
 */
-char *str_concat(char *s1, char *s2)
+char *str_concat(__attribute__((unused)) char *s1, char *s2)
 {
 	char *cat = NULL;
 
