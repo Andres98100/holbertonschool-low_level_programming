@@ -33,7 +33,7 @@ int **alloc_grid(int width, int height)
 			i = 0;
 			while (i < width)
 			{
-				free(matriz[i];
+				free(matriz[i]);
 				i++;
 			}
 			free(matriz);
