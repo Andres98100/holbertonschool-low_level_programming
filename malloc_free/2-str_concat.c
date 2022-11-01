@@ -21,7 +21,6 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	cat = malloc(sizeof(char) * (strlen(s1) + strlen(s2)) + 1);
-	strcat(cat, s1);
-	strcat(cat, s2);
+	cat = strcat(s1, s2);
 	return (cat);
 }
