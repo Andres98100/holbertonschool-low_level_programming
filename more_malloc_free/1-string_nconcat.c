@@ -13,7 +13,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int len = 0;
 	unsigned int len2 = 0;
-	int i, j;
+	int i,;
+	unsigned int j;
 	char *cat = NULL;
 	
 	if (s1 == NULL)
