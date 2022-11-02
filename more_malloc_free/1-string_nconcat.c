@@ -50,6 +50,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 		j++,
 	}
-	cat = '\0';
+	cat[i] = '\0';
 	return (cat);
 }
