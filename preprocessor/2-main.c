@@ -1,9 +1,11 @@
 #include <stdio.h>
-
-int main(int argc, char ** argv)
+/**
+  * main - funtion main
+  *Return: zero
+*/
+int main(void)
 {
-  printf("%s", argv[0]);
-  (void)argc;
+  printf("%s", __FILE__);
   return (0);
 }
 
