@@ -7,12 +7,8 @@
  */
 void print_dog(struct dog *d)
 {
-	int i;
-
-	for (i = 0; i < d; i++)
-	{
-		printf("Name: %s\n", d[i].name);
-		printf("Age: %f\n", d[i].age);
-		printf("Owner: %s", d[i].owner);
-	}
+	printf("Name: %s\n", d.name);
+	printf("Age: %f\n", d.age);
+	printf("Owner: %s", d.owner);
+	
 }
