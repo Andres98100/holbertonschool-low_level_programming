@@ -11,7 +11,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	int i;
 
-	name = malloc(name + 1);
+	name = malloc(strlen(name) + 1);
 	if (name == NULL)
 	{
 		free(name);
