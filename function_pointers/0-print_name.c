@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "function_pointers.h"
 /**
  * print_name - function print the name
