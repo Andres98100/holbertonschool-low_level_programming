@@ -3,21 +3,20 @@
 #include "dog.h"
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	struct dog_t save;
-	char *newDog;
+	struct dog_t dog_t;
 
-	if (save == NULL)
+	if (dog_t == NULL)
 		return (NULL);
-	save = malloc(save * sizeof(char));
+	dog_t = malloc(dog_t * sizeof(char));
 	if (save != NULL)
 	{
-		save>name = name;
-		save>age = age;
-		save->owner = owner;
+		dog_t>name = name;
+		dog_t>age = age;
+		dog_t->owner = owner;
 	}
-	if (save->name == name)
+	if (dog_t->name == name)
 	{
-		save = name;
+		dog_T = name;
 	}
-	return (save);
+	return (dog_t);
 }
