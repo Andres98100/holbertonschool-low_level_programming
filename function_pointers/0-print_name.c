@@ -14,7 +14,7 @@ void print_name(char *name, void (*f)(char *))
 	{
 		for (i = 0; name[i]; i++)
 		{
-			f(s[i]);
+			f(&s[i]);
 		}
 	}
 }
