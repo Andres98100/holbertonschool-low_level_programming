@@ -3,11 +3,11 @@
 #include "dog.h"
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	struct dog_t *newDog;
+	dog_t *newDog;
 
-	if (newDog == NULL)
-		return (NULL);
 	newDog = malloc(sizeof(newDog));
+	if (newDog != NULL)
+		return (NULL);
 	if (newDog != NULL)
 	{
 		newDog->name = name;
