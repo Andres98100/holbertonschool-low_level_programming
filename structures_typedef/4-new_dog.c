@@ -10,9 +10,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	newDog = malloc(sizeof(dog_t));
 	if (newDog != NULL)
 	{
-		newDog->name = name;
-		newDog->age = age;
-		newDog->owner = owner;
+		newDog.name = name;
+		newDog.age = age;
+		newDog.owner = owner;
 	}
 	return (newDog);
 }
