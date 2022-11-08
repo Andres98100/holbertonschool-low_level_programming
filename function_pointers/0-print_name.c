@@ -11,17 +11,16 @@ void print_name(char *name, void (*f)(char *))
 {
 	int i;
 
-	if (name)
-	{
-		for (i = 0; name[i]; i++)
-		{
-			f(&name[i]);
-		}
-	}
 	name = malloc(sizeof(name) + 1);
 	if (name != NULL)
 	{
 		free(name);
 	}
-	return;
+	if (name)
+	{
+		for (i = 0; name[i] + 1; i++)
+		{
+			f(&name[i]);
+		}
+	}
 }
