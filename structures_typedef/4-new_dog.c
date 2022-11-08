@@ -6,16 +6,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	struct dog_t save;
 	char *newDog;
 
-	if (newDog == NULL)
+	if (save == NULL)
 		return (NULL);
-	newDog = malloc(newDog + 1);
-	if (newDog != NULL)
+	save = malloc(save * sizeof(char));
+	if (save != NULL)
 	{
-		newDog->name = name;
-		newDOG->age = age;
-		newDog->owner = owner;
+		save>name = name;
+		save>age = age;
+		save->owner = owner;
 	}
-	if (newDog->name == name)
+	if (save->name == name)
 	{
 		save = name;
 	}
