@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "3-calc.h"
-
+/**
+ * main - funcition main
+ * @argc: variable int
+ * @argv: variable pointer
+ * Return: zero
+ */
 int main(int argc. *argv[])
 {
 	int num1, num2;
@@ -25,4 +30,5 @@ int main(int argc. *argv[])
 	{
 		printf("%d\n", getopfun(num1, num2));
 	}
+	return (0);
 }
