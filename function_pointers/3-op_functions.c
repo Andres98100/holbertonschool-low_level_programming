@@ -25,11 +25,11 @@ int op_sub(int a, int b)
  * op_mul - function mul two integers
  * @a: variable int
  * @b: variable int
- * @Return: int
+ * Return: int
  */
 int op_mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
 /**
  * op_div - function div two integers

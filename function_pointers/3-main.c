@@ -7,7 +7,7 @@
  * @argv: variable pointer
  * Return: zero
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2;
 	int (*getopfun)(int, int);
@@ -15,12 +15,11 @@ int main(int argc,char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
 	getopfun = get_op_func(argv[2]);
-	getopfun(num1, num2);
 	if (getopfun == NULL)
 	{
 		printf("Error\n");
