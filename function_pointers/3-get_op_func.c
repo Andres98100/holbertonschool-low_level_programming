@@ -18,6 +18,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
+
 	while (ops[i].op && strlen(s) == 1)
 	{
 		if (*s == *ops[i].op)
