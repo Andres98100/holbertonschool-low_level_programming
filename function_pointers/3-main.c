@@ -7,7 +7,7 @@
  * @argv: variable pointer
  * Return: zero
  */
-int main(int argc. *argv[])
+int main(int argc, *argv[])
 {
 	int num1, num2;
 	int (*getopfun)(int, int);
