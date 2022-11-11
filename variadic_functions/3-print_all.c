@@ -1,4 +1,3 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
@@ -16,12 +15,11 @@ void print_all(const char * const format, ...)
 	int count;
 	va_list(ptr);
 
-
 	count = 0;
 	va_start(ptr, format);
 	while (format && format[count] != '\0')
 	{
-		switch (format[count])
+		switch (format[count++])
 		{
 			case 'c':
 				c = (char) va_arg(ptr, int);
@@ -44,7 +42,6 @@ void print_all(const char * const format, ...)
 			default:
 				continue;
 		}
-		count++;
 		if (format[count] != '\0')
 			printf(", ");
 	}
