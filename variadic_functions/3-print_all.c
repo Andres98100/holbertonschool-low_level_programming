@@ -12,10 +12,9 @@ void print_all(const char * const format, ...)
 	int i;
 	float f;
 	char *s;
-	int count;
-	va_list (ptr);
+	int count = 0;
+	va_list(ptr);
 
-	count = 0;
 	va_start(ptr, format);
 	while (format && format[count] != '\0')
 	{
