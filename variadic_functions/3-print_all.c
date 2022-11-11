@@ -13,8 +13,9 @@ void print_all(const char * const format, ...)
 	int i;
 	float f;
 	char *s;
-	va_list (ptr);
 	int count;
+	va_list(ptr);
+
 
 	count = 0;
 	va_start(ptr, format);
@@ -43,9 +44,9 @@ void print_all(const char * const format, ...)
 			default:
 				continue;
 		}
+		count++;
 		if (format[count] != '\0')
 			printf(", ");
-		count++;
 	}
 	va_end(ptr);
 	printf("\n");
