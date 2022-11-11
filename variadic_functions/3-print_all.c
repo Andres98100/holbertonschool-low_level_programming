@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 	int i;
 	float f;
 	char *s;
-	va_list(ptr);
+	va_list (ptr);
 	int count;
 
 	count = 0;
