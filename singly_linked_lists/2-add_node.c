@@ -6,13 +6,12 @@
  * @str: variable pointer char
  */
 
-lists_t *add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	lists_t *new;
-	int count = 0;
 	int lenstr;
-	lenstr = strlen(str);
 
+	lenstr = strlen(str);
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 		return (NULL);
