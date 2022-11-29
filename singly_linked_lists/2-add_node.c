@@ -4,6 +4,7 @@
  * add_node - function add elements
  * @head: variable struct
  * @str: variable pointer char
+ * Return: list_t
  */
 
 list_t *add_node(list_t **head, const char *str)
