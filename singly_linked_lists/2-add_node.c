@@ -9,7 +9,7 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	lists_t *new;
+	list_t *new;
 	int lenstr;
 
 	lenstr = strlen(str);
