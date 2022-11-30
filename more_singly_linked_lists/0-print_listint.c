@@ -1,3 +1,4 @@
+
 #include "lists.h"
 
 /**
@@ -11,7 +12,7 @@ size_t print_listint(const listint_t *h)
 	unsigned int list_size = 0;
 
 	if (!h)
-		exit(list_size);
+		exit(NULL);
 	while (h)
 	{
 		printf("%d\n", h->n);
