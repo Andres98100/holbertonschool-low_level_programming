@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 {
 	unsigned int list_size = 0;
 
-	if (!h)	
+	if (!h)
 		return (list_size);
 	while (h)
 	{
