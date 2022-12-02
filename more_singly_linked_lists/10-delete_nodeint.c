@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_noteint - dunction delete a node
+ * delete_nodeint_at_index - dunction delete a node
  * @head: variable struct
  * @index: variable int
  * Return: int
