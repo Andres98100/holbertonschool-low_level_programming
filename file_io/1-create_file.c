@@ -9,22 +9,16 @@
 
 int create_file(const char *filename, char *text_content)
 {
-  char *buff;
 	int fd;
+	int lentext;
 
+	lentext = strlen(text_content);
 	if (!filename)
 		return (-1);
-	buff = malloc(sizeof(char));
-	if (!buff)
-		return (0);
-	if (text_content)
-	{
-		fd = open("hello wold.txt", O_CREAT | O_RDWR, 0600);
-		if (fd == -1)
-			return (0);
-		write(fd, buff, 1024);
-	}
-
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	if (fd == -1)
+		return (-1);
+	write(fd, text_content, lentext);
 	close(fd);
 	return (1);
 }
