@@ -1,9 +1,9 @@
 #include "main.h"
 
-/***
+/**
  * append_text_to_file - function add text at end
  * @filename: variable char
- * @text_content - variable char
+ * @text_content: variable char
  * Return: int
  */
 
