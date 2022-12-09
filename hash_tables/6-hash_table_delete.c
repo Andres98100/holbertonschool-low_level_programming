@@ -20,7 +20,7 @@ void hash_table_delete(hash_table_t *ht)
 		{
 			free(aux->key);
 			free(aux->value);
-			free(aux);
+			free(aux->next);
 			aux = aux->next;
 		}
 	}
