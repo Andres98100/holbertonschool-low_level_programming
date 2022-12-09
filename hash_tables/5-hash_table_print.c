@@ -3,8 +3,7 @@
 /**
  * hash_table_print - function prints a hash table
  * @ht: variable struct
- * 
- * 
+ * Return: void
 */
 
 void hash_table_print(const hash_table_t *ht)
