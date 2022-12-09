@@ -23,11 +23,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	if (!ht)
 		return (0);
-	index = hash_djb2((const unsigned char) * dup_key) % (ht->size);
+	index = hash_djb2((const unsigned char *)dup_key) % (ht->size);
 	node = malloc(sizeof(hash_node_t));
 	node->key = dup_key;
 	node->value = dup_value;
-	dup_value = NULL;
 	node->next = NULL;
 	if (ht->array[index] && strcmp(ht->array[index]->key, dup_key) != 0)
 		node->next = ht->array[index];
