@@ -10,13 +10,28 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-    unsigned int index;
-    hash_node_t *node = NULL;
+	unsigned int index;
+	hash_node_t *node = NULL;
+	char *dup_key, *dup_value;
 
-    index = hash_djb2(key);
-    node = malloc(sizeof(hash_node_t));
-    node->key = key;
-    node->value = value;
-    node->next = NULL;
-    ht->array[index] = node;
+	dup_key = strdup(key);
+	dup_value = strdup(value);
+	if (!value || !dup_value)
+	{
+		free(dup_value);
+		return (0);
+	}
+	if (!ht)
+		return (0);
+	
+	index = hash_djb2((const unsigned char) * dup_key) % (ht->size);
+	node = malloc(sizeof(hash_node_t));
+	node->key = key;
+	node->value = value;
+	node->next = NULL;
+	ht->array[index] = node;
+	if (ht->array[index] && strcmp(ht->array[index]->key, key_dup) != 0)
+		node->next = ht->array[index];
+	ht->array[index] = node;
+	return (1);
 }
