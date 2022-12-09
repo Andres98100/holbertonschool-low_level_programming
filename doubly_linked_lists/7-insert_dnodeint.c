@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - function add node at index
+ * *insert_dnodeint_at_index - function add node at index
  * @h: variable struct
  * @idx: variable int
  * @n: variable int
- * Return struct
+ * Return: struct
 */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -39,5 +39,5 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		return (add_dnodeint_end(h, n));
 	}
 	free(new);
-	return (NULL);;
+	return (NULL);
 }
