@@ -12,7 +12,7 @@ void check_error(int stderr, char *filename, int fd)
 {
 	if (stderr == 97)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(stderr);
 	}
 	else if (stderr == 98)
