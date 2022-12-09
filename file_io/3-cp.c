@@ -12,22 +12,22 @@ void check_error(int stderr, char *filename, int fd)
 {
 	if (stderr == 97)
 	{
-		dprintf(STDERR_FILENO, "Error: can't read from file\n");
+		dprintf(STDERR_FILENO, "Error: Can't read from file\n");
 		exit(stderr);
 	}
 	else if (stderr == 98)
 	{
-		dprintf(STDERR_FILENO, "Error: can't read from file %s\n", filename);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
 		exit(stderr);
 	}
 	else if (stderr == 99)
 	{
-		dprintf(STDERR_FILENO, "Error: can't write to %s\n", filename);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 		exit(stderr);
 	}
 	else if (stderr == 100)
 	{
-		dprintf(STDERR_FILENO, "Error: can't close fd %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(stderr);
 	}
 }
