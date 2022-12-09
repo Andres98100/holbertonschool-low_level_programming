@@ -27,7 +27,7 @@ void check_error(int stderr, char *filename, int fd)
 	}
 	else if (stderr == 100)
 	{
-		dprintf(STDERR_FILENO, "Error: can't read to file %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: can't close fd %d\n", fd);
 		exit(stderr);
 	}
 }
